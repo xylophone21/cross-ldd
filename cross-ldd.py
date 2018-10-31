@@ -21,8 +21,8 @@ def pretty_print(depArray):
                 print("          %s" % (sub))
 
 def usage():
-    print("""Usage: cross-ldd.py [OPTION]... target-file
-List depend shared library of target-file.
+    print("""Usage: cross-ldd.py [OPTION]... FILE...
+List depend shared library of FILE.
 
 Mandatory arguments to long options are mandatory for short options too.
   -l, --ld-path              library search paths seperated by ‘:’, same as LD_LIBRARY_PATH.
